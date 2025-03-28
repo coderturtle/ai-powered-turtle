@@ -1,0 +1,10 @@
+{
+  "name": "coderturtle-quartz",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "quartz build"
+  },
+  "devDependencies": {
+    "quartz": "^4.0.0"
+  }
+}

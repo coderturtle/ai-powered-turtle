@@ -1,0 +1,3 @@
+# Scratchpad
+
+Freeform brain dumps.
