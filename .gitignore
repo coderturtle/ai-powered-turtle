@@ -1,5 +1,11 @@
-# Ignore local Quartz build artifacts
-dist/
-.cache/
-node_modules/
 .DS_Store
+.gitignore
+node_modules
+public
+prof
+tsconfig.tsbuildinfo
+.obsidian
+.quartz-cache
+private/
+.replit
+replit.nix

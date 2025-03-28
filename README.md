@@ -1,16 +1,18 @@
-# Coderturtle Quartz Vault
+# Quartz v4
 
-This is the GitHub Pages–ready version of the `ai-powered-turtle` vault, built with [Quartz](https://quartz.jzhao.xyz/).
+> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
 
-## 🚀 Deployment
+Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
 
-Push to `main` and GitHub Actions will automatically build and deploy to GitHub Pages.
+🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
 
-[![Deploy Quartz site to GitHub Pages](https://github.com/coderturtle/ai-powered-turtle/actions/workflows/deploy.yml/badge.svg)](https://github.com/coderturtle/ai-powered-turtle/actions/workflows/deploy.yml)
+[Join the Discord Community](https://discord.gg/cRFFHYye7t)
 
-## 🧠 Local Testing
+## Sponsors
 
-```bash
-npm install
-npm run build
-```
+<p align="center">
+  <a href="https://github.com/sponsors/jackyzha0">
+    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
+  </a>
+</p>
