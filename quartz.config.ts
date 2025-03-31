@@ -12,6 +12,8 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
+    css: ["static/terminal.css"],
+    scripts: ["static/terminal.js"],
     analytics: {
       provider: "plausible",
     },
