@@ -1,7 +1,4 @@
 
-**Back-End Architecture (Section 3)**
-
-```markdown
 ---
 title: "Back-End Architecture"
 tags: [architecture, backend, microservices, api, server]
