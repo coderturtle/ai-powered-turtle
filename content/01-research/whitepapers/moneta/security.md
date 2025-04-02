@@ -1,7 +1,6 @@
 
 **Security and Compliance (Section 7)**
 
-```markdown
 ---
 title: "Security and Compliance"
 tags: [architecture, security, compliance, privacy, GDPR, FCA]
@@ -90,7 +89,7 @@ flowchart LR
     Gateway --> SIEM
     SIEM --> Alerts
 ```
-```
+
 In this schematic, the user authentication flows through MFA into the API Gateway which is protected by a WAF. The services then process requests but always consult the **Compliance Rules Engine** (for actions like trades or advice) and log important events to the **Audit Log**. Data in databases is encrypted and secrets are pulled from a secure vault. Meanwhile, the security monitoring gathers logs from the gateway, audit logs, etc., feeding into a SIEM which generates alerts for the SRE/devops team to address (incident response). This layered approach ensures from entry to storage to monitoring, security and compliance are woven into Moneta’s operations.
 
 **In summary,** Moneta’s architecture treats security and compliance as first-class citizens. By incorporating robust security measures and automating compliance checks and audits, the platform not only protects user data and assets but also builds the trust necessary for a financial service. Users and regulators alike can have confidence that Moneta is doing the right things behind the scenes: keeping data safe, respecting user privacy, and operating within the bounds of financial laws and guidelines at all times.

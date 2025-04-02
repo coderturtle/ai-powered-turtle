@@ -1,7 +1,4 @@
 
-**Architecture & Design Decision Recording (Section 12)**
-
-```markdown
 ---
 title: "Architecture & Design Decision Recording"
 tags: [architecture, decisions, documentation, adr, governance]
@@ -83,7 +80,7 @@ sequenceDiagram
     Dev->>Code: Implement based on ADR decision
     Note over Code,Repo: ADR reference linked in code or docs
 ```
-```
+
 In this sequence, a developer or architect brings up a design decision needed. The team or an architecture board reviews it. The developer writes the ADR, it's reviewed and merged into the repository, then the implementation follows the recorded decision. The note indicates that ADRs are kept connected to the code (through comments or documentation cross-references).
 
 **In summary,** Moneta’s approach to architecture and design decision recording ensures a disciplined and transparent evolution of the system. By maintaining a living knowledge base of **why** things are the way they are, the team can move faster in the future (leveraging past wisdom), maintain consistency in design, and more easily onboard new engineers or stakeholders. This practice is a cornerstone of sustainable architecture – treating decisions as important artifacts just like code or test cases, subject to review and iteration.

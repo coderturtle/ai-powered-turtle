@@ -87,7 +87,6 @@ flowchart LR
     CompSvc --> DB_Compliance["Compliance DB"]
 ```
 
-```
 In this diagram, solid arrows from **API Gateway** to services indicate synchronous request/response flows for API calls. The **Event Bus** subgraph represents the asynchronous channel: for instance, the Trading Service emits an event after executing a trade; the Portfolio Service picks it up to update holdings, the AI Service picks it up to reconsider its advice, and the Notification Service picks it up to notify the user. Each service is shown connected to its own database (or data store), highlighting the _database-per-service_ pattern. The AI Service is depicted with a connection to a **ModelStore**, which could be a specialized repository for ML models or feature vectors.
 
 **In summary,** Moneta’s back-end architecture is a collection of focused microservices that together provide the platform’s rich functionality. This structure ensures that each concern (from trading to advice to compliance) can scale and evolve independently. The use of an API gateway and message bus provides a robust communication fabric, and the careful data segregation upholds security and integrity. The back-end is thus well-prepared to handle both current needs and future expansion, aligning with Moneta’s objective of a resilient, scalable investment platform.

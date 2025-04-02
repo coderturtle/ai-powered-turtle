@@ -1,7 +1,4 @@
 
-**Front-End Architecture (Section 2)**
-
-```markdown
 ---
 title: "Front-End Architecture"
 tags: [architecture, frontend, ui, ux, mobile, web]
@@ -64,7 +61,6 @@ flowchart TB
     Mobile -->|REST/GraphQL| BackendAPI
  ```
  
-```
 In this diagram, the **Design System & Common Components** block indicates that both web and mobile share styling and component guidelines. Authentication and profile management UI is also shared conceptually (ensuring users have a consistent login and settings experience). All front-end clients communicate with the **Backend API Gateway** using secure protocols. The conversational UI (which could be a chatbot on the web or an external messenger integration) also uses the same gateway, although it may use a different authentication mechanism (like token-based auth in a chat platform).
 
 **In summary,** Moneta’s front-end architecture is built to provide a rich, secure, and uniform experience. By using modern frameworks, a shared design system, and focusing on performance and accessibility, the platform ensures that interacting with Moneta is convenient and trustworthy, whether through clicking, tapping, or talking. The front-end is tightly integrated with back-end services but remains decoupled from specific implementations through the API layer, allowing the UI to evolve (or new clients to be added) without breaking the system’s core.

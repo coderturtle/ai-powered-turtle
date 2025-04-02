@@ -1,7 +1,4 @@
 
-**Data Architecture (Section 5)**
-
-```markdown
 ---
 title: "Data Architecture"
 tags: [architecture, data, database, storage, GDPR]
@@ -75,7 +72,7 @@ flowchart TB
     UserDB -- Encrypted Backup --> BackupStorage["Encrypted Backups"]
     Warehouse -- Analytics Queries --> Analyst["Data Science/Analytics Tools"]
 ```
-```
+
 In this diagram, **Operational Databases** for each domain (user, portfolio, trading, etc.) handle live transactions. External data flows in: Market feeds go into a **Cache** (like Redis or Kafka streams) then into relevant databases or directly consumed by services (e.g., AI). Bank and broker data arrive via integration services into the respective stores. Operational DBs and log stores then funnel data into the Analytics Warehouse for offline analysis. Encrypted backups of critical databases are shown going to secure storage. The separation ensures that day-to-day operations and long-term analytics are distinct, improving performance and security. The elements are connected with annotations like “Encrypted Backup” to emphasize security measures in data handling.
 
 **In summary,** Moneta’s data architecture carefully balances the need for rich, real-time data capabilities with the stringent requirements of security and privacy. By using the right tool for each type of data (SQL, NoSQL, time-series, etc.) and enforcing governance, Moneta ensures data is available to power AI insights and user features while respecting user rights and regulatory obligations. This robust data foundation is what enables Moneta’s AI to be intelligent and reliable, and the platform to be trustworthy with user data.

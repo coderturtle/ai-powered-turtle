@@ -1,7 +1,4 @@
 
-**Integration & Interoperability (Section 9)**
-
-```markdown
 ---
 title: "Integration & Interoperability"
 tags: [architecture, integration, interoperability, api, fintech]
@@ -71,7 +68,7 @@ flowchart LR
     PartnerApp["3rd-Party Fintech App"] -- "OAuth2 + API Calls" --> MonetaAPI
     MonetaAPI --> MonetaCore
 ```
-```
+
 In this diagram, Moneta is in the middle with its core services and AI. On the left, a user's bank connects through the Open Banking adapter into Moneta’s system (for account info and payments). On the right, a Brokerage executes trades from requests via the brokerage adapter. A market data vendor feeds data in through the market data adapter. At the bottom, a partner application uses Moneta’s open API (with proper auth) to interact with Moneta’s core (for example, retrieving user’s investment data if authorized). Each arrow represents a well-defined interface or standard, ensuring that adding/changing one integration doesn't disturb others.
 
 **In summary,** Moneta’s integration and interoperability approach means the platform is not a walled garden but an active participant in the financial ecosystem. By adhering to standards and modularizing integration points (via adapters and APIs), Moneta can easily connect to needed data and services and offer its own in a controlled way. This flexibility future-proofs the platform against the ever-evolving fintech landscape where new services and collaborations can emerge, allowing Moneta to plug in or be plugged into with minimal friction.

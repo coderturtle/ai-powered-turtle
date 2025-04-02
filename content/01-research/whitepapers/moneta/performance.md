@@ -1,7 +1,4 @@
 
-**Scalability & Performance (Section 10)**
-
-```markdown
 ---
 title: "Scalability & Performance"
 tags: [architecture, scalability, performance, optimization, reliability]
@@ -70,7 +67,7 @@ flowchart TB
     ServicePool --> Queue["Async Queues"]
     Queue --> WorkerPool["Background Workers\n(auto-scalable)"]
 ```
-```
+
 In this diagram, user requests first hit a CDN (which caches static content and maybe some API responses), then go to a load balancer that distributes to multiple API Gateway pods. Those in turn call the needed microservices (Service Pool) which are also scalable. They retrieve/write data to the primary database or read from replicas to spread load. They also use the cache for quick data. Some tasks go into async queues which are processed by a separate pool of workers (also scalable). This shows multiple layers where scaling can happen to maintain performance.
 
 **In summary,** Moneta’s scalability and performance strategy is comprehensive: it not only can grow to handle more users or data, but it remains efficient and fast at each step. By combining horizontal scaling, intelligent caching, and continuous performance optimization, the platform can provide real-time, responsive AI-driven advice and trade execution even under heavy load. This ensures that as Moneta’s user base grows or when markets get busy, users continue to get a smooth and quick experience without delays or downtime.

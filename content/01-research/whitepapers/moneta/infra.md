@@ -1,7 +1,6 @@
 
 **Infrastructure & Deployment (Section 8)**
 
-```markdown
 ---
 title: "Infrastructure & Deployment"
 tags: [architecture, infrastructure, cloud, devops, deployment]
@@ -90,7 +89,7 @@ flowchart TD
     K8s --> Stream
     AIPods --> Storage
 ```
-```
+
 In the diagram, code goes through CI, gets built into images, then goes through Dev and Staging before Production deployment. The **Cloud Infrastructure** block shows the Kubernetes cluster (with various pods for different components) connected to managed services like databases, caches, streaming platform, and using a load balancer for ingress. The production deployment step updates the Kubernetes cluster (which the LB routes traffic to). Backups and model files are stored in object storage accessible by the AI pods. This visualizes how continuous deployment ties into the actual running infrastructure.
 
 **In summary,** Moneta’s infrastructure and deployment strategy leverage the best of cloud technologies to provide a reliable backbone for the platform. Automation in deployment ensures rapid yet safe iteration, while the use of Kubernetes and managed services provides a scalable and robust environment. The result is that Moneta can deliver new intelligent features to users quickly, without compromising on stability or compliance, and can gracefully handle growth and failures alike.

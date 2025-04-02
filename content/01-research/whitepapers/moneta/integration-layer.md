@@ -1,7 +1,6 @@
 
 **Integration Layer (Section 4)**
 
-```markdown
 ---
 title: "Integration Layer"
 tags: [architecture, integration, api, interoperability, gateway]

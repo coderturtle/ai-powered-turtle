@@ -1,7 +1,6 @@
 
 **Observability, SRE & Chaos Engineering (Section 14)**
 
-```markdown
 ---
 title: "Observability, SRE & Chaos Engineering"
 tags: [architecture, observability, sre, monitoring, chaos-engineering, reliability]
@@ -82,7 +81,7 @@ flowchart TD
     ChaosTool -- "Induce Failures" --> Monitoring
     ChaosTool -- "Test Recovery" --> IncidentResponse
 ```
-```
+
 In the diagram, monitoring flows into alerting and analysis. On-call handles incidents, leading to post-mortems and then improvements by the dev team, which ultimately enhance the system (closing the loop back into monitoring better metrics or fewer errors). Separately, chaos experiments inject failures to test the system and also invoke incident response processes to ensure they work well when it's practice rather than a real incident.
 
 **In summary,** Moneta’s approach to observability, SRE, and chaos engineering ensures that the platform isn’t just designed well, but also operated well. The team can detect issues quickly, respond effectively, and continually harden the system against failures. By intentionally simulating adversity through chaos engineering, Moneta builds confidence that it can withstand real-world unpredictability — whether it’s a sudden surge in users or a partial outage of an external service — thereby safeguarding user trust and maintaining a high quality of service.

@@ -1,7 +1,4 @@
 
-**Agentic AI Capabilities (Section 6)**
-
-```markdown
 ---
 title: "Agentic AI Capabilities"
 tags: [architecture, ai, agentic, fintech, personalization]
@@ -93,7 +90,7 @@ flowchart LR
     Notify --> UserApp["User (App/Chat)"]
     UserApp -- Feedback --> UData
 ```
-```
+
 In this diagram, data inputs (user profile/goals, current portfolio state, market context) flow into the **AI Engine**, where multiple models analyze different aspects. The **Agent Controller** combines model outputs with predefined rules/strategies. A proposed action or advice (like “rebalance portfolio” or “suggest buying X”) is then checked by the Compliance rules (e.g., suitability, limits). If approved, it gets logged in the audit trail and then either communicated to the user (via notification or chatbot) or executed through the appropriate service (which would also notify the user). The user’s response or outcome (feedback loop) goes back into user data (for example, if the user declines advice, that might update their preference or the AI’s understanding of the user).
 
 **In summary,** Moneta’s agentic AI is a sophisticated ensemble that brings proactive intelligence to personal finance. Architecturally, it’s treated as a first-class component but with oversight and integration such that its autonomy never compromises compliance or user trust. It can be thought of as a tireless co-pilot for the user’s financial journey: always learning, always watching the road ahead, but deferring to the human driver’s final decisions. This synergy of AI and human control is what makes Moneta both cutting-edge and responsible.
