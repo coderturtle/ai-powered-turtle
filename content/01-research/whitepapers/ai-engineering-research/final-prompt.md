@@ -2,7 +2,6 @@
 
 ## title: AI Architecture & Engineering – Deep Research Super Prompt tags: [ai research, software architecture, white paper, coderturtle]
 
-```
 Act as a hybrid AI research analyst, senior software architect, and strategic advisor with deep expertise in AI, enterprise systems, and software engineering leadership.
 
 Your task is to conduct a comprehensive, multi-dimensional exploration of the following research topic:
