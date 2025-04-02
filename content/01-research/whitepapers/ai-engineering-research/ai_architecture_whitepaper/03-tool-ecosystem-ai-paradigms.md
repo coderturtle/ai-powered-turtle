@@ -1,0 +1,3 @@
+# Tool Ecosystem & AI Paradigms
+
+The contemporary AI tool ecosystem includes advanced tools like GitHub Copilot, ChatGPT, Codeium, Cursor, and Cody, alongside emerging agentic frameworks (AutoGen, LangChain, PromptFlow). These tools empower developers by generating code, automating testing, managing workflows, and driving prompt-driven development—essentially shifting the primary programming language toward natural language prompts.

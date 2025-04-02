@@ -1,0 +1,3 @@
+# Transformation of Architecture & Engineering
+
+AI transforms architecture and engineering by automating repetitive coding tasks, enhancing design processes through generative design, and shifting software architects towards higher-value system thinking, strategic oversight, and model integration. This new paradigm demands agility in architecture, greater modularity, and integration of machine learning (ML) workflows into traditional development cycles.

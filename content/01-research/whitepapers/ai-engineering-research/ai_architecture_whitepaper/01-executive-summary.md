@@ -1,0 +1,3 @@
+# Executive Summary
+
+Artificial Intelligence (AI) is fundamentally reshaping the discipline of software architecture and engineering. AI tools such as GitHub Copilot, ChatGPT, and agentic frameworks are transforming traditional software development practices, shifting engineers from code creators to AI curators. This white paper explores how organizations can strategically adapt their architectures, skills, and leadership approaches to thrive in this AI-driven environment. Key areas include architectural modernization, skill evolution, regulatory compliance, and strategic leadership transformations within an EU-based fintech asset management context.
