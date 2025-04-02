@@ -1,4 +1,4 @@
----
+
 
 ## title: Deep Research Prompt Kit tags: [deep research, AI architecture, prompt engineering, coderturtle]
 
