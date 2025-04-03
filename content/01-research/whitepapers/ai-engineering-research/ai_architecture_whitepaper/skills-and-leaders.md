@@ -1,9 +1,5 @@
-title: "AI Skills and Leaders"
-tags: [architecture, ai, strategy, enterprise, skills, learning, leadership]
-aliases: ["AI Strategy"]
-created: 2025-04-02 07:45:30
-updated: 2025-04-01 07:45:30
----
+
+
 Great — I’ll now dive into the next three sections of the white paper, covering Skill Evolution, Learning & Upskilling, and Leadership & Strategy. This will include:
 
 - A breakdown of enduring vs. automatable skills

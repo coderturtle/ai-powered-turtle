@@ -3,86 +3,94 @@ title: Deep Research Prompt – Martech Strategy for Global Asset Manager
 tags: [martech, asset management, strategy, genAI, regulatory, deep research]
 ---
 
-```
-Act as a senior AI-augmented marketing technology strategist and enterprise architect. Your task is to produce a detailed, actionable deep research report and strategic roadmap for designing the marketing technology (Martech) stack for an international asset management firm.
+---
 
-The audience is a mix of marketing technology leaders, digital transformation executives, and regulatory officers. Use an advisory, executive-ready tone with structured, Obsidian-compatible Markdown formatting.
+Act as a hybrid AI research strategist, martech architect, and enterprise compliance advisor. You specialize in building marketing technology strategies and platforms for global financial institutions.
+
+Your task is to produce a detailed, white paper–style deep research artifact for:
+
+**Designing a Modern, Compliant Martech Strategy and Architecture for a Global Asset Management Firm**
+
+Use Obsidian-compatible Markdown. Structure your output for modular reuse in presentations, blog posts, diagrams, and compliance playbooks.
 
 ---
 
-🔍 Research Topic:
-**Designing a Modern, Compliant Martech Strategy for a Global Asset Management Firm**
-
----
-
-📦 Structure your research using the following outline:
+🔍 Research Scope:
+Include the following key areas:
 
 1. **Executive Summary**  
-   - Key strategic themes, recommended path forward
+   - Strategic goals, summary findings, dual-track roadmap (near + long term)
 
 2. **Current Martech Trends in Financial Services**  
-   - Evolution of personalization, omnichannel, CDPs, AI
-   - Financial services–specific martech use cases
+   - Personalization, CDPs, omnichannel orchestration, AI adoption
+   - FS-specific examples and vendor patterns
 
-3. **Adobe AUM Stack Assessment**  
-   - Adobe Experience Platform (AEP), Target, Campaign, Analytics, Workfront, Real-Time CDP
-   - Suitability for global asset managers
-   - Integration, strengths, challenges, licensing considerations
+3. **Adobe AUM Stack Evaluation**  
+   - Components: AEP, Real-Time CDP, Target, Workfront, Campaign, Analytics
+   - Fit for global enterprise martech use
+   - Strengths, integration paths, licensing and compliance issues
 
-4. **Alternative Martech Ecosystems**  
-   - Headless CMS (e.g., Contentful, Strapi), hybrid and full-stack options (Sitecore, Acquia)
-   - Open-source vs. commercial
-   - Point solutions vs. platform play
+4. **Alternatives to Adobe Stack**  
+   - Headless CMS (e.g., Contentful), hybrid (Sitecore, Acquia), full-stack
+   - Open source vs enterprise SaaS
+   - Integration ecosystems and extensibility
 
-5. **Headless vs. Hybrid vs. Headful Architectures**  
-   - Comparison table with tradeoffs (performance, flexibility, security, governance)
-   - Suitability for enterprise-grade personalization and compliance
+5. **Architecture Comparison: Headless vs Hybrid vs Headful**  
+   - Tradeoff matrix: performance, flexibility, compliance, dev experience
+   - Suitability for composable, regulated martech
 
-6. **CRM and Dependency Technologies**  
-   - Integration with Salesforce, Microsoft Dynamics, HubSpot, others
-   - Identity resolution, data unification, cross-channel orchestration
-   - CDP vs. CRM vs. DMP convergence
+6. **CRM & Supporting Technologies**  
+   - Role of Salesforce, Microsoft Dynamics, HubSpot
+   - Identity resolution, CDP vs CRM boundaries, orchestration glue
 
-7. **Regulatory & Compliance Requirements**  
-   - Specific considerations across:
-     - **Australia** (e.g., ASIC, OAIC, CDR)
-     - **Europe** (e.g., GDPR, MiFID II)
-     - **Americas** (e.g., SEC, FINRA, CCPA)
-   - Consent management, data residency, auditing, AI usage compliance
+7. **Regulatory and Compliance Considerations**  
+   - Regional mapping: Australia (ASIC, OAIC, CDR), Europe (GDPR, MiFID II), Americas (SEC, FINRA, CCPA)
+   - AI compliance, auditability, consent mgmt, data sovereignty
 
-8. **Strategic Roadmap**  
-   - **Short Term (12–18 months):** foundational data unification, experimentation with personalization, regulatory prep, early AI tools
-   - **Long Term (3–5 years):** full automation loops, GenAI-enabled marketing ops, agentic campaign design, synthetic segmentation, autonomous optimization
+8. **Strategic Roadmap (12–18 months + 3–5 years)**  
+   - Phase-based delivery plan
+   - Near-term: POC, CDP setup, privacy scaffolding, early AI
+   - Long-term: GenAI, agentic martech, content automation, predictive segmentation
 
-9. **Disruptive Technology Impact Forecast**  
-   - Impact of Generative AI, Agentic AI, AI-driven journey orchestration
-   - LLM-integrated CDPs, content automation, intelligent segmentation
-   - Adaptive martech stacks with continuous self-optimization
+9. **Disruptive Tech Impact Forecast**  
+   - Generative AI, Agentic AI, intelligent journey builders
+   - AI-enhanced experimentation, self-optimizing systems
+   - Role of LLM-integrated CDPs and real-time content engines
 
-10. **Recommendations & Decision Criteria**  
-    - Platform selection framework
-    - Build vs. buy considerations
-    - Regulatory scorecard
-    - Executive-ready checklist
+10. **Decision Criteria & Recommendations**  
+    - Capability checklist, platform fit matrix, vendor scorecard
+    - Build vs buy strategy, AI-readiness score, regional compliance readiness
 
-11. **Artifacts**  
+11. **Artifacts & Deliverables**  
+    - Martech architecture diagrams (Mermaid format)
+    - Regulatory checklist by region
+    - Persona-journey alignment charts
     - Capability comparison tables
-    - Reference architecture diagrams (headless/hybrid/headful)
-    - Vendor matrix with region-specific strengths
-    - Regulatory readiness checklist
-    - Sample tech stack timelines
+    - Platform timelines
 
 ---
 
-💡 Prompt Modifiers (as needed):
-- **Tone**: advisory, white paper, executive briefing
-- **Format**: Markdown, deck-style summary, roadmap + checklist
-- **Perspective**: enterprise CTO, CMO, regional regulatory officer
+🎯 BONUS SECTION — Sample Martech Platform Architecture
+
+Generate a full system-level architecture for a modular martech platform including:
+- Identity resolution and consent layer
+- Real-Time CDP and data lake
+- AI/ML services (GenAI, recommendation engine)
+- CMS/experience engine (headless)
+- Omnichannel activation (email, web, mobile, call center)
+- Integration with CRM, analytics, workflow orchestration
+
+**Include:**
+- Detailed Mermaid diagram with components and data flows
+- Personas (e.g., Content Creators, Marketing Ops, Customer Service, Engineers)
+- Walkthrough of how content flows from creation → targeting → activation → insight
 
 ---
 
-🛠️ Final Assembly Prompt:
-```
-Act as a white paper editor. Merge all research sections into a cohesive strategy document. Ensure flow, consistency, and clarity for a global enterprise audience.
-```
-```
+💡 Prompt Modifiers:
+- **Tone**: advisory, white paper, CxO-level strategic briefing
+- **Format**: markdown, architecture diagrams, regulatory tables, persona flows
+- **Perspective**: martech architect, compliance lead, CMO advisor
+
+🛠️ Final Stitching Prompt:
+Act as a white paper editor. Merge all sections into a final strategy brief with clear flow, clarity, and decision-ready guidance.
