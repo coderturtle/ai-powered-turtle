@@ -1,4 +1,14 @@
 
+---
+title: \"AI-Augmented Leadership: Automating the Admin to Lead Strategically\"
+slug: ai-augmented-leadership
+tags: [ai-tools, leadership, productivity, microsoft365, copilot, automation, white-paper]
+author: \"Senior Architecture & Platform Engineering Manager\"
+publish: true
+folder: white-papers
+audience: ["Engineering Teams", "Platform Architects", "AI Developers", "Technical Leadership"]
+template: "deep-research"
+---
 
 # **AI-Augmented Leadership: Automating Executive Tasks with Modern Tools**
 
