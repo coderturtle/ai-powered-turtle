@@ -1,7 +1,6 @@
 
----
-
 # 🧪 Sample Agentic SDLC Project: **“AI Act Journey Assistant”**
+
 
 > **Goal**: Build a web-based experience that guides internal teams through EU AI Act classification and documentation—powered by LLM interpretation, automated assessments, and audit-ready reporting.
 
