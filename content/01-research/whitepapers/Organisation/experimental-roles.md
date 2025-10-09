@@ -1,7 +1,4 @@
 
-
----
-
 # 🧪 Experimental Framework for the Hybrid Human + Agent Organisation (2026)
 
 > **Goal:** Gather hard data — not anecdotes — on how AI-augmented tooling and new team structures impact delivery speed, quality, and employee experience.  
@@ -212,7 +209,3 @@ These experiments build on tool familiarity and functional pilots to answer:
 > In the Industrial age, joint-stock and clearinghouses balanced ambition with safety.  
 > Today, hybrid human-agent teams do the same for digital products.  
 > These experiments are our modern voyages — each one launching from a well-governed port, returning with data on how the future organisation should really work.”_
-
----
-
-Would you like me to now turn this into an **executive-ready programme plan** (e.g., a 4-page “Hybrid Experimentation Charter”) with timeline, owners, and a visual map of which experiments depend on which tool-fluency stages?
