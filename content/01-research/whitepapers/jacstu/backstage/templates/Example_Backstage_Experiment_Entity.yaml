@@ -1,0 +1,27 @@
+apiVersion: jacquard.backstage.io/v1alpha1
+kind: Experiment
+metadata:
+  name: h1-four-person-pod
+  title: Four-Person Hybrid Pod
+  description: Team Topology trial on advisor fund comparison behind flags
+  tags: [team-topology, advisor-services, eu]
+spec:
+  category: Team Topology
+  framework: Hybrid
+  owner: group:eu-advisor-tools
+  system: advisor-platform
+  lifecycle: active           # draft | active | evaluate | scale | sunset
+  dates:
+    start: 2026-07-01
+    decision: 2026-10-31
+  repo: https://github.com/yourorg/experiments-hub/...
+  prfaq: docs/prfaq.md
+  baselinesCsv: hybrid-experiments/baselines.csv
+  dashboardCsv: hybrid-experiments/dashboard.csv
+  measures:
+    - name: lead-time-days
+      pillar: Team
+      baseline: 12.5
+      target: 10.0
+  controls:
+    policies: [SEC-012, POL-AI-004, GOV-EXP-002]
