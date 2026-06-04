@@ -1,0 +1,22 @@
+change_log_version: 1
+project_name: ai-powered-turtle
+entries:
+  - date: 2026-06-04
+    agent: codex
+    change_type: adoption
+    summary: "Adopted existing coderturtle repository into the Hekton factory-output project tree."
+    files_changed:
+      - ".hekton/"
+      - "AGENTS.md"
+      - "CLAUDE.md"
+      - "CODEX.md"
+      - "docs/"
+      - "scripts/"
+      - "mind-palace/"
+      - ".env.example"
+    validation:
+      - "scripts/check-prereqs.sh: passed"
+      - "scripts/verify-project.sh: passed; npm checks skipped because dependencies are not installed"
+      - "just validate-reproducibility /Users/hekton/Development/hekton/factory-output/ai-powered-turtle: passed"
+      - "just governance-check /Users/hekton/Development/hekton/factory-output/ai-powered-turtle: passed"
+      - "just validate-taxonomy: passed; live vault has no factory-output control-plane entry yet"
