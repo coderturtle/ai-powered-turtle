@@ -1,0 +1,30 @@
+{
+  "version": "1",
+  "last_sync": "2026-06-08T07:33:13.432369+00:00",
+  "files": {
+    "20-projects/factory-output/ai-powered-turtle/decisions.md": {
+      "repo_hash_at_sync": "e0c0e149d60155c7fffba6f1f2dfdd55532ceb644ac19c273a33e3d3e8add738",
+      "vault_hash_at_sync": "e0c0e149d60155c7fffba6f1f2dfdd55532ceb644ac19c273a33e3d3e8add738",
+      "last_sync_direction": "repo-to-vault",
+      "last_sync_time": "2026-06-08T07:33:13.431955+00:00"
+    },
+    "20-projects/factory-output/ai-powered-turtle/index.md": {
+      "repo_hash_at_sync": "a059fefe42de72250d0bcf672273d2affb22c67eb887b6635a8120f01db47689",
+      "vault_hash_at_sync": "a059fefe42de72250d0bcf672273d2affb22c67eb887b6635a8120f01db47689",
+      "last_sync_direction": "repo-to-vault",
+      "last_sync_time": "2026-06-08T07:33:13.432105+00:00"
+    },
+    "20-projects/factory-output/ai-powered-turtle/next-actions.md": {
+      "repo_hash_at_sync": "b65c3e6a0ecad77e455a45a7cc691dbb3ba8794b52e546321e85196abf9f1d32",
+      "vault_hash_at_sync": "b65c3e6a0ecad77e455a45a7cc691dbb3ba8794b52e546321e85196abf9f1d32",
+      "last_sync_direction": "repo-to-vault",
+      "last_sync_time": "2026-06-08T07:33:13.432234+00:00"
+    },
+    "20-projects/factory-output/ai-powered-turtle/session-log.md": {
+      "repo_hash_at_sync": "3333c4fa39a9645ac8750ae16e1deba8b4a120328e6c7f2b01356c69f4afc2a0",
+      "vault_hash_at_sync": "3333c4fa39a9645ac8750ae16e1deba8b4a120328e6c7f2b01356c69f4afc2a0",
+      "last_sync_direction": "repo-to-vault",
+      "last_sync_time": "2026-06-08T07:33:13.432368+00:00"
+    }
+  }
+}
