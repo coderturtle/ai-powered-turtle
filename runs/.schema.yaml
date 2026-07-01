@@ -1,26 +1,22 @@
-# Machine-readable run ledger schema.
-# Read by hekton-status and cross-project dashboard aggregators.
-# Generated 2026-07-01 by standardise-runs-ledger.py — re-run with --force to regenerate.
-schema_version: "1"
 project: ai-powered-turtle
 project_type: factory-output
 id_prefix: APT
+run_description: "A published article, prompt kit, blog post, tool guide, or documentation page in the AI-powered Turtle knowledge lab"
 task_types:
   - research-post
   - prompt-kit
   - blog-post
   - tool-guide
   - documentation
-run_description: "A published article, prompt kit, blog post, tool guide, or documentation page in the AI-powered Turtle knowledge lab"
 fields:
-  run_id: string
-  project: string
-  task_id: string
-  task_type: string
-  engine: string
-  status: "done | pending-response | in-progress | failed | abandoned"
-  created: date
-  human_confirmed: boolean
-  human_notes: string
-  output_artifact: string
-  failure_reason: string
+  run_id:        "run-YYYYMMDD-APT-NNN"
+  project:       "ai-powered-turtle"
+  task_id:       "APT-NNN"
+  task_type:     "see task_types above"
+  engine:        "who/what did the work"
+  status:        "done | pending-response | in-progress | failed | abandoned"
+  created:       "ISO 8601 date"
+  human_confirmed: "false until human reviews"
+  human_notes:   "optional review notes"
+  output_artifact: "path to output file"
+  failure_reason:  "populated when status is failed"
