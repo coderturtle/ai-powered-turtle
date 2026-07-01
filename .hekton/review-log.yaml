@@ -1,0 +1,11 @@
+review_log_version: 1
+project_name: ai-powered-turtle
+reviews:
+  - date: 2026-06-04
+    reviewer: codex
+    review_type: adoption-audit
+    status: completed-with-caveats
+    summary: "Read-only intake review found a Quartz knowledge site with no obvious credential-shaped secrets, but with content/publication risks requiring human review."
+    follow_ups:
+      - "Review the content tree for publication/privacy suitability."
+      - "Review GitHub Actions deployment behavior before pushing adoption branch."

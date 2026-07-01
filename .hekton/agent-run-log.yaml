@@ -1,0 +1,10 @@
+agent_run_log_version: 1
+project_name: ai-powered-turtle
+runs:
+  - date: 2026-06-04
+    agent: codex
+    role: existing-project-adoption-agent
+    summary: "Cloned repository to temporary intake, classified as factory-output, added Hekton control-plane artifacts, and prepared for permanent placement."
+    source_repo_url: "git@github.com:coderturtle/ai-powered-turtle.git"
+    temporary_intake_path: "/private/tmp/hekton-adoption/ai-powered-turtle"
+    permanent_path: "/Users/hekton/Development/hekton/factory-output/ai-powered-turtle"
