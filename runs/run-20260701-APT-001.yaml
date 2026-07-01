@@ -3,9 +3,9 @@ project: ai-powered-turtle
 task_id: APT-001
 task_type: research-post
 engine: claude-sonnet-4-6
-status: in-progress
+status: done
 created: "2026-07-01"
-human_confirmed: false
-human_notes: "Auto-logged. Review and set human_confirmed: true when done."
+human_confirmed: true
+human_notes: "Completed Hekton adoption: scaffold files, governance docs, runs ledger, and post-commit hook all live on main. PR #28 merged."
 output_artifact: ""
 failure_reason: ""
