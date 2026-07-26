@@ -1,0 +1,11 @@
+run_id: run-20260726-APT-002
+project: ai-powered-turtle
+task_id: APT-002
+task_type: research-post
+engine: manual
+status: in-progress
+created: "2026-07-26"
+human_confirmed: false
+human_notes: "Auto-logged. Review and set human_confirmed: true when done."
+output_artifact: ""
+failure_reason: ""
