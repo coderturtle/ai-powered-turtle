@@ -9,3 +9,13 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+
+# --- Hekton open-core boundary (retrofit) ---
+# Factory-internal artefacts. Untracked 2026-07-26; they remain in the
+# working tree and in this repo's history. See the private sibling for the
+# canonical copies.
+.hekton/agent-run-log.yaml
+.hekton/change-log.yaml
+mind-palace
+docs/session-log.md
+docs/local-assumptions.md
