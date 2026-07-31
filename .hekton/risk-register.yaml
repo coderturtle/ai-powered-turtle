@@ -1,0 +1,43 @@
+risk_register_version: 1
+project_name: ai-powered-turtle
+created_date: 2026-06-04
+
+risks:
+  - id: RISK-0001
+    title: "Large authored content tree needs publication review"
+    category: privacy
+    likelihood: medium
+    impact: high
+    status: open
+    owner: hekton
+    mitigation: "Review content/ before further public release or automated publishing changes."
+    raised_date: 2026-06-04
+    reviewed_date: 2026-06-04
+    links:
+      - "docs/risks.md"
+  - id: RISK-0002
+    title: "Deployment workflows were adopted without execution"
+    category: operations
+    likelihood: medium
+    impact: medium
+    status: open
+    owner: hekton
+    mitigation: "Review .github/workflows/ before changing deployment or pushing adoption branch upstream."
+    raised_date: 2026-06-04
+    reviewed_date: 2026-06-04
+    links:
+      - "docs/risks.md"
+  - id: RISK-0003
+    title: "Mixed upstream licensing context"
+    category: legal
+    likelihood: low
+    impact: medium
+    status: open
+    owner: hekton
+    mitigation: "Confirm whether Apache-2.0 LICENSE and Quartz MIT LICENSE.txt accurately describe code and content licensing."
+    raised_date: 2026-06-04
+    reviewed_date: 2026-06-04
+    links:
+      - "LICENSE"
+      - "LICENSE.txt"
+      - "docs/risks.md"

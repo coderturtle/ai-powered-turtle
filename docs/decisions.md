@@ -12,7 +12,7 @@ Status: Accepted
 
 Adopt the repository as a Hekton `factory-output` project.
 
-- Local path: `/Users/hekton/Development/hekton/factory-output/ai-powered-turtle`
+- Local path: `<hekton>/factory-output/ai-powered-turtle`
 - Vault path: `20-projects/factory-output/ai-powered-turtle`
 - Adoption status: `adopted`
 - Lifecycle stage: `draft`

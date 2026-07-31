@@ -11,7 +11,7 @@ Within Hekton, it is a factory-output project: a deliverable produced or maintai
 - Hekton classification: `factory-output`
 - GitHub account: `coderturtle`
 - Remote: `git@github.com-coderturtle:coderturtle/ai-powered-turtle.git`
-- Local path: `/Users/hekton/Development/hekton/factory-output/ai-powered-turtle`
+- Local path: `<hekton>/factory-output/ai-powered-turtle`
 - Vault path: `20-projects/factory-output/ai-powered-turtle`
 
 ## Maintenance Rules
@@ -41,9 +41,9 @@ npm test
 Central Hekton checks:
 
 ```bash
-cd /Users/hekton/hekton
-just validate-reproducibility /Users/hekton/Development/hekton/factory-output/ai-powered-turtle
-just governance-check -- /Users/hekton/Development/hekton/factory-output/ai-powered-turtle
+cd <hekton-machinery>
+just validate-reproducibility <hekton>/factory-output/ai-powered-turtle
+just governance-check -- <hekton>/factory-output/ai-powered-turtle
 ```
 
 ## Vault Policy

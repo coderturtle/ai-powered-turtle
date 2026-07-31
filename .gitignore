@@ -19,3 +19,9 @@ replit.nix
 mind-palace
 docs/session-log.md
 docs/local-assumptions.md
+
+# Agent config: describes the Hekton control plane and machine layout, not the product.
+AGENTS.md
+CLAUDE.md
+CODEX.md
+.env.example

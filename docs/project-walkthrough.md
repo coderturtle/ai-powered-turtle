@@ -15,10 +15,10 @@ This is a factory output rather than Hekton machinery. It is useful as a publish
 
 ## How It Fits Hekton
 
-Hekton keeps code and deliverables under `/Users/hekton/Development/hekton/`. Because this repo is linked to the `coderturtle` GitHub handle and is not Hekton platform infrastructure, it belongs under:
+Hekton keeps code and deliverables under `<hekton>/`. Because this repo is linked to the `coderturtle` GitHub handle and is not Hekton platform infrastructure, it belongs under:
 
 ```text
-/Users/hekton/Development/hekton/factory-output/ai-powered-turtle
+<hekton>/factory-output/ai-powered-turtle
 ```
 
 Its human-facing control plane should live under:
