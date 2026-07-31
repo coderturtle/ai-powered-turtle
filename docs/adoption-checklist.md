@@ -29,7 +29,7 @@ Agent: Codex
 
 - [x] Classification selected: `factory-output`
 - [x] Rationale: the project is a personal/public deliverable made outside the Hekton factory machinery, not reusable Hekton platform infrastructure and not a Hekton experiment lab.
-- [x] Permanent local path: `/Users/hekton/Development/hekton/factory-output/ai-powered-turtle`
+- [x] Permanent local path: `<hekton>/factory-output/ai-powered-turtle`
 - [x] Vault control-plane path: `20-projects/factory-output/ai-powered-turtle`
 - [x] Promotion target if lab: not applicable
 - [x] Canonical lifecycle stage: `draft`
@@ -67,8 +67,8 @@ Agent: Codex
 ## Validation
 
 - [x] `just validate-taxonomy`
-- [x] `just validate-reproducibility /Users/hekton/Development/hekton/factory-output/ai-powered-turtle`
-- [x] `just governance-check /Users/hekton/Development/hekton/factory-output/ai-powered-turtle`
+- [x] `just validate-reproducibility <hekton>/factory-output/ai-powered-turtle`
+- [x] `just governance-check <hekton>/factory-output/ai-powered-turtle`
 - [ ] Project-specific tests or smoke checks: pending dependency install.
 
 ## Mind Palace

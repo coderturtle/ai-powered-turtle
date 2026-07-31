@@ -12,7 +12,7 @@ Status: Accepted
 
 Adopt the repository as a Hekton `factory-output` project.
 
-- Local path: `/Users/hekton/Development/hekton/factory-output/ai-powered-turtle`
+- Local path: `<hekton>/factory-output/ai-powered-turtle`
 - Vault path: `20-projects/factory-output/ai-powered-turtle`
 - Adoption status: `adopted`
 - Lifecycle stage: `draft`
@@ -29,7 +29,7 @@ Status: Accepted
 
 ### Context
 
-Hekton has first-class GitHub account routing in `~/hekton/config/github-accounts.yaml`. Factory-output projects can use `coderturtle`, and the SSH alias `github.com-coderturtle` selects the correct key.
+Hekton has first-class GitHub account routing in `<hekton-machinery>/config/github-accounts.yaml`. Factory-output projects can use `coderturtle`, and the SSH alias `github.com-coderturtle` selects the correct key.
 
 ### Decision
 
