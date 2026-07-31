@@ -29,7 +29,7 @@ Status: Accepted
 
 ### Context
 
-Hekton has first-class GitHub account routing in `~/hekton/config/github-accounts.yaml`. Factory-output projects can use `coderturtle`, and the SSH alias `github.com-coderturtle` selects the correct key.
+Hekton has first-class GitHub account routing in `<hekton-machinery>/config/github-accounts.yaml`. Factory-output projects can use `coderturtle`, and the SSH alias `github.com-coderturtle` selects the correct key.
 
 ### Decision
 
