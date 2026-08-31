@@ -79,3 +79,25 @@ The user approved merging `agent/claude/partners-research-whitepaper` and asked 
 - `main` is 2 commits ahead of `origin/main`, unpushed pending an explicit publish decision.
 - `agent/claude/platform-operating-model-whitepaper` is committed but not yet merged - awaiting the same kind of explicit merge approval the partners-research branch got.
 - Both new whitepapers remain covered by `RISK-0001` until a human publication/privacy pass happens.
+
+## 2026-08-31 (later same day) - Push main and merge the platform-operating-model PR; both whitepapers go live
+
+Status: Accepted
+
+### Context
+
+User explicitly asked to PR and push "as both should go live" - i.e. both the partners-research whitepaper (already merged locally into `main`) and the platform-operating-model whitepaper (still on its own branch) should be published.
+
+### Decision
+
+- Pushed local `main` (containing the partners-research merge, `b289c50`) directly to `origin/main` - a fast-forward push, not a GitHub PR, since that merge had already happened locally at the user's explicit request in the prior turn.
+- Pushed `agent/claude/platform-operating-model-whitepaper` and opened GitHub PR #34 (`coderturtle/ai-powered-turtle`) for it, matching this repo's established convention (its git history is almost entirely "Merge pull request #N" commits) rather than another local merge.
+- Merged PR #34 (`gh pr merge --merge --delete-branch`) on the user's explicit go-live instruction, then fast-forwarded local `main` and deleted the local branch.
+- Both pushes triggered `.github/workflows` "Deploy Quartz site to GitHub Pages"; both runs completed successfully (verified via `gh run watch`).
+- Used `gh auth switch` to the `coderturtle` account for the push/PR/merge operations (this machine's default `gh` account is `dermdunc`), then switched back afterwards to avoid leaving global `gh` state changed.
+
+### Consequences
+
+- Both whitepapers are now live at https://coderturtle.github.io/ai-powered-turtle/.
+- `RISK-0001` (content publication/privacy review) is now retrospective rather than pre-publication for these two files - tracked in `docs/next-actions.md`.
+- No open branches remain from this work; `main` is in sync with `origin/main`.
