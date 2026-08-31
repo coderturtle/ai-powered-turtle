@@ -59,3 +59,23 @@ The user had a deep-research report (`~/Downloads/deep-research-report-5.md`, on
 
 - New public content exists under `content/` and falls under `RISK-0001` (large authored content tree needs publication review) - it has not had a human publication/privacy pass yet.
 - Committed locally at the user's request; not pushed to `origin/main` as part of this session.
+
+## 2026-08-31 (later same day) - Merge partners-research branch; add platform-operating-model whitepaper
+
+Status: Accepted
+
+### Context
+
+The user approved merging `agent/claude/partners-research-whitepaper` and asked for a second deep-research report (`~/Downloads/deep-research-report-6.md`, on federated/agentic platform-engineering operating models) to be added as a new `platform-operating-model` whitepaper on a fresh branch, plus general tidy-up so it renders correctly.
+
+### Decision
+
+- Merged the partners-research branch into local `main` (commit `b289c50`) and deleted the branch. Left `main` unpushed: `.github/workflows` deploys the public site on push to `main`, and `.hekton/governance.yaml` marks `public_release`/`deployment_changes` as `human_required`, so pushing is a separate decision from merging locally.
+- Added `content/01-research/whitepapers/platform-operating-model/deep-research.md` on `agent/claude/platform-operating-model-whitepaper`, following the same frontmatter convention and citation-token cleanup as the partners-research whitepaper (96 tokens stripped this time).
+- Validated rendering with an actual `quartz build` (not just a Markdown read-through) into a scratch directory, then discarded the build output.
+
+### Consequences
+
+- `main` is 2 commits ahead of `origin/main`, unpushed pending an explicit publish decision.
+- `agent/claude/platform-operating-model-whitepaper` is committed but not yet merged - awaiting the same kind of explicit merge approval the partners-research branch got.
+- Both new whitepapers remain covered by `RISK-0001` until a human publication/privacy pass happens.
