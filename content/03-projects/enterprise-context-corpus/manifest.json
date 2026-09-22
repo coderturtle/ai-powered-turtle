@@ -1,0 +1,20 @@
+{
+  "name": "Enterprise Context Corpus Starter Pack",
+  "version": "0.1",
+  "purpose": "2\u20133 week internal prototype starter pack",
+  "agent_roles": {
+    "opus": "planning, architecture, critical review",
+    "sonnet": "primary implementation",
+    "haiku": "narrow deterministic tasks"
+  },
+  "files": [
+    "README.md",
+    "docs/context-pack.md",
+    "docs/validation-plan.md",
+    "prompts/01-opus-plan.md",
+    "prompts/02-sonnet-bootstrap.md",
+    "prompts/03-sonnet-implementation-loop.md",
+    "prompts/04-haiku-small-task.md",
+    "prompts/05-opus-critical-review.md"
+  ]
+}
