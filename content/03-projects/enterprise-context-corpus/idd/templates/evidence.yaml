@@ -1,0 +1,6 @@
+intent: INTENT-001
+
+acceptance:
+  AC-001:
+    status: NOT_RUN
+    evidence: []

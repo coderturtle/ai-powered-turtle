@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IDD Evidence Record",
+  "type": "object",
+  "required": [
+    "intent",
+    "acceptance"
+  ],
+  "properties": {
+    "intent": {
+      "type": "string"
+    },
+    "acceptance": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "status",
+          "evidence"
+        ],
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "PASS",
+              "FAIL",
+              "UNKNOWN",
+              "NOT_RUN"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "type",
+                "ref",
+                "result"
+              ],
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "ref": {
+                  "type": "string"
+                },
+                "result": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

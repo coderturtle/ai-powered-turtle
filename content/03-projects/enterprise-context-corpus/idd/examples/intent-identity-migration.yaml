@@ -1,0 +1,62 @@
+id: INTENT-IDENTITY-MIGRATION-001
+
+title: Move Adviser Portal authentication to Enterprise Identity
+
+outcome:
+  statement: >
+    Adviser Portal authenticates customers using Enterprise Identity
+    without introducing a local credential store.
+
+rationale:
+  - align with target architecture
+  - reduce duplicate security capability
+
+scope:
+  systems:
+    - adviser-portal
+  capabilities:
+    - customer-authentication
+
+non_goals:
+  - redesign customer registration
+  - migrate unrelated session-management services
+
+constraints:
+  architecture:
+    - INTENT-IDENTITY-001
+  standards:
+    - STD-OIDC-001
+  security:
+    - no local credential storage
+  regulatory: []
+
+acceptance:
+  - id: AC-001
+    statement: Adviser Portal authenticates through Enterprise Identity.
+    verification: integration-test
+
+  - id: AC-002
+    statement: No local credential store is introduced.
+    verification: architecture-rule
+
+  - id: AC-003
+    statement: Existing supported login behaviour remains functional.
+    verification: behavioural-test
+
+context:
+  required:
+    - current-system
+    - architecture-intent
+    - relevant-adrs
+    - applicable-standards
+    - known-exceptions
+
+evidence:
+  required:
+    - tests
+    - architecture-checks
+
+risk:
+  level: medium
+
+status: READY
