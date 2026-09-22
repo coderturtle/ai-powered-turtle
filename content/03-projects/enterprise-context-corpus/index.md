@@ -26,3 +26,15 @@ See [[README|the full README]] for the recommended agent split (Opus / Sonnet / 
 - `docs/context-pack.md`, `docs/validation-plan.md`
 - `prompts/01-opus-plan.md` through `prompts/05-opus-critical-review.md`
 - `manifest.json`
+
+## IDD add-on pack
+
+A lightweight Intent-Driven Development (IDD) add-on merges into this pack (see `idd/README.md`), scaffolding files-first: schemas, skills/prompts, deterministic validation, and evidence-backed verification — no IDD runtime up front.
+
+- `docs/idd-context-pack.md`
+- `idd/schemas/` — `intent.schema.json`, `evidence.schema.json`
+- `idd/templates/` — `architecture.yaml`, `current.yaml`, `decisions.md`, `evidence.yaml`
+- `idd/skills/` — `intent-create.md`, `intent-plan.md`, `intent-implement.md`, `intent-review.md`, `intent-verify.md`, `intent-close.md`
+- `idd/agents/` — `planner-opus.md`, `implementer-sonnet.md`, `verifier-sonnet.md`, `utility-haiku.md`
+- `idd/examples/intent-identity-migration.yaml`
+- `idd/manifest.json`

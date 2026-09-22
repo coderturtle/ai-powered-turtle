@@ -1,0 +1,43 @@
+id: INTENT-001
+
+title: Replace with a short outcome-focused title
+
+outcome:
+  statement: >
+    Describe what should be true when this work is complete.
+
+rationale:
+  - Why this matters.
+
+scope:
+  systems: []
+  capabilities: []
+
+non_goals:
+  - Explicitly state what is not being solved.
+
+constraints:
+  architecture: []
+  standards: []
+  security: []
+  regulatory: []
+
+acceptance:
+  - id: AC-001
+    statement: Describe an observable outcome.
+    verification: integration-test
+
+context:
+  required:
+    - current-system
+    - relevant-decisions
+    - applicable-standards
+
+evidence:
+  required:
+    - tests
+
+risk:
+  level: medium
+
+status: DRAFT

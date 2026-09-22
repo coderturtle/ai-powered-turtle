@@ -1,0 +1,26 @@
+{
+  "name": "Lightweight IDD Add-on Pack",
+  "version": "0.1",
+  "merge_target": "Enterprise Context Corpus starter pack",
+  "files": [
+    "README.md",
+    "docs/idd-context-pack.md",
+    "idd/agents/implementer-sonnet.md",
+    "idd/agents/planner-opus.md",
+    "idd/agents/utility-haiku.md",
+    "idd/agents/verifier-sonnet.md",
+    "idd/examples/intent-identity-migration.yaml",
+    "idd/schemas/evidence.schema.json",
+    "idd/schemas/intent.schema.json",
+    "idd/skills/intent-close.md",
+    "idd/skills/intent-create.md",
+    "idd/skills/intent-implement.md",
+    "idd/skills/intent-plan.md",
+    "idd/skills/intent-review.md",
+    "idd/skills/intent-verify.md",
+    "idd/templates/architecture.yaml",
+    "idd/templates/current.yaml",
+    "idd/templates/decisions.md",
+    "idd/templates/evidence.yaml"
+  ]
+}
