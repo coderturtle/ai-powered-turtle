@@ -1,0 +1,12 @@
+{
+  "name": "Strategy Golden Source Context Pack",
+  "version": "0.1",
+  "date": "2026-10-05",
+  "files": [
+    "README.md",
+    "docs/context-pack.md",
+    "docs/open-design-questions.md",
+    "docs/research-findings.md",
+    "prompts/01-opus-plan.md"
+  ]
+}
