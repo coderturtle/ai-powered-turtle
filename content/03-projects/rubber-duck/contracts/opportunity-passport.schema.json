@@ -1,0 +1,193 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/operation-rubber-duck/opportunity-passport.schema.json",
+  "title": "Opportunity Passport",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "title",
+    "initial_observation",
+    "problem_statement",
+    "facts",
+    "assumptions",
+    "unknowns",
+    "decisions",
+    "options",
+    "experiment",
+    "status"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string"
+    },
+    "initial_observation": {
+      "type": "string"
+    },
+    "problem_statement": {
+      "type": "string"
+    },
+    "affected_groups": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim",
+          "source"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "validation_status": {
+            "enum": [
+              "participant-reported",
+              "document-supported",
+              "validated"
+            ]
+          }
+        }
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "process_steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "step",
+          "evidence_status"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "step": {
+            "type": "string"
+          },
+          "evidence_status": {
+            "enum": [
+              "observed",
+              "inferred",
+              "unknown"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "counterarguments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "decision",
+          "reason"
+        ],
+        "properties": {
+          "decision": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "description"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "simplify",
+              "augment",
+              "reinvent"
+            ]
+          },
+          "description": {
+            "type": "string"
+          },
+          "impact_estimate": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "experiment": {
+      "type": "object",
+      "required": [
+        "question",
+        "method",
+        "success_signal"
+      ],
+      "properties": {
+        "question": {
+          "type": "string"
+        },
+        "method": {
+          "type": "string"
+        },
+        "success_signal": {
+          "type": "string"
+        },
+        "owner": {
+          "type": "string"
+        },
+        "review_date": {
+          "type": "string"
+        }
+      }
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "provisional",
+        "ready-for-review",
+        "incubate",
+        "hatch",
+        "duck"
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "event_id": "operation-rubber-duck",
+  "title": "Operation Rubber Duck",
+  "version": "1.0",
+  "max_teams": 6,
+  "timing_note": "Minutes relative to beginning of 15-minute introduction",
+  "missions": [
+    {
+      "id": "provocation",
+      "name": "The Provocation",
+      "duration_minutes": 15,
+      "mode": "plenary",
+      "goal": "Demonstrate process archaeology and importance of evidence",
+      "exit_gate": "Audience sees evidence reveal",
+      "agent": "mirror",
+      "fallback": "Use printed mission prompt; record observations and decisions manually."
+    },
+    {
+      "id": "silent-pond",
+      "name": "The Silent Pond",
+      "duration_minutes": 10,
+      "mode": "individual-to-team",
+      "goal": "Collect independent operational frictions",
+      "exit_gate": "Team selects one problem with rationale",
+      "agent": null,
+      "fallback": "Use printed mission prompt; record observations and decisions manually."
+    },
+    {
+      "id": "duck-detective",
+      "name": "The Duck Detective",
+      "duration_minutes": 15,
+      "mode": "team",
+      "goal": "Clarify symptoms, causes and evidence",
+      "exit_gate": "Human-reviewed problem card",
+      "agent": "the-duck",
+      "fallback": "Use printed mission prompt; record observations and decisions manually."
+    },
+    {
+      "id": "the-mirror",
+      "name": "The Mirror",
+      "duration_minutes": 15,
+      "mode": "team",
+      "goal": "Map actual process and unknowns",
+      "exit_gate": "Evidence-coded process map",
+      "agent": "the-mirror",
+      "fallback": "Use printed mission prompt; record observations and decisions manually."
+    },
+    {
+      "id": "quackquisition",
+      "name": "The Quackquisition",
+      "duration_minutes": 15,
+      "mode": "individual-to-team",
+      "goal": "Challenge problem with independent perspectives",
+      "exit_gate": "Human-reviewed alternative explanation",
+      "agent": "quackquisition",
+      "fallback": "Use printed mission prompt; record observations and decisions manually."
+    },
+    {
+      "id": "hatchery",
+      "name": "The Hatchery",
+      "duration_minutes": 20,
+      "mode": "team",
+      "goal": "Compare simplify/augment/reinvent; plan experiment",
+      "exit_gate": "Experiment hypothesis and owner",
+      "agent": "hatchmaster",
+      "fallback": "Use printed mission prompt; record observations and decisions manually."
+    },
+    {
+      "id": "duck-off",
+      "name": "The Great Duck-Off",
+      "duration_minutes": 15,
+      "mode": "plenary",
+      "goal": "Pitch and triage options",
+      "exit_gate": "Hatch / incubate / duck decision",
+      "agent": null,
+      "fallback": "Use printed mission prompt; record observations and decisions manually."
+    }
+  ]
+}
