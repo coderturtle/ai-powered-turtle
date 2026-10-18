@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "id": "DUCK-DEMO-001",
+  "title": "Account-transfer delays (fictional)",
+  "initial_observation": "Some fictional transfer requests take longer than expected.",
+  "problem_statement": "We suspect incomplete source information causes repeated handoffs, but the frequency and primary cause are unverified.",
+  "affected_groups": [
+    "fictional customers",
+    "fictional operations team"
+  ],
+  "facts": [
+    {
+      "claim": "In the synthetic exercise dataset, cases A03 and A05 have recorded return-to-sender events.",
+      "source": "scenarios/account-transfer/events.csv",
+      "validation_status": "document-supported"
+    }
+  ],
+  "assumptions": [
+    "Incomplete initial data is the primary cause of delay."
+  ],
+  "unknowns": [
+    "How much delay is queueing versus rework?",
+    "Which control steps are mandatory?"
+  ],
+  "process_steps": [
+    {
+      "step": "Request received",
+      "evidence_status": "observed",
+      "notes": "Synthetic documents only"
+    },
+    {
+      "step": "Completeness review",
+      "evidence_status": "inferred",
+      "notes": "Reconstruct from records"
+    }
+  ],
+  "counterarguments": [
+    "An approval queue, rather than missing information, may dominate elapsed time."
+  ],
+  "decisions": [
+    {
+      "decision": "Keep incomplete data as hypothesis, not established diagnosis",
+      "reason": "Synthetic event records do not establish causality"
+    }
+  ],
+  "options": [
+    {
+      "type": "simplify",
+      "description": "Clarify required transfer documents up front",
+      "impact_estimate": "Unknown"
+    },
+    {
+      "type": "augment",
+      "description": "Test checklist assistance with existing approved tools",
+      "impact_estimate": "Unknown"
+    },
+    {
+      "type": "reinvent",
+      "description": "Explore event-driven exception routing if constraints permit",
+      "impact_estimate": "Unknown"
+    }
+  ],
+  "experiment": {
+    "question": "What proportion of delay comes from avoidable missing information?",
+    "method": "Review a small approved representative sample and calculate time by state",
+    "success_signal": "Attribution and repeatability of delay across sample",
+    "owner": "TBD",
+    "review_date": "TBD"
+  },
+  "status": "provisional"
+}

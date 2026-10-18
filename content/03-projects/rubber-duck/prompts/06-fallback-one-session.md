@@ -1,0 +1,3 @@
+# One-session shortcut — if work time is very limited
+
+Using only Sonnet 5 and this context pack, implement an approved corporate-local static website that displays missions and time, copies complete mission prompts, takes locally edited Opportunity Passport data, and exports Markdown/JSON. Include the synthetic process demo and printable challenge cards. No backend, agent automation, external hosting, or extra packages without approval. Run tests and report untested parts. Prefer a smaller working tool to a large incomplete architecture. Keep the four native skill files ready for manual import into Copilot personal agents; do not claim skill installation is complete.
